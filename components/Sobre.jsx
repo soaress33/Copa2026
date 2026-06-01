@@ -48,11 +48,13 @@ export default function Sobre() {
 
                 </div>
 
-                <div className="bg-green-400 w-[50%] h-120">
+                <div className="bg-green-400 rounded w-[50%] h-120">
                     <Image
-                    src="/copa.png"
-                    alt="sobre"
-                    className="w-full h-full "
+                        src="/copa.png"
+                        alt="Sobre"
+                        width={500}
+                        height={300}
+                        className="object-cover w-full rounded h-full"
                     />
 
                 </div>
