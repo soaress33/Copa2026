@@ -29,10 +29,11 @@ export default function Home() {
         </h1>
 
      
-
+        <a href="#Jogadores">
         <button className="mt-10 bg-green-700 hover:bg-green-800 px-8 py-4 text-white font-bold rounded">
           EXPLORAR JOGADORES
         </button>
+        </a>
       </div>
     </div>
   );
