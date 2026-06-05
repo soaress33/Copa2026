@@ -11,6 +11,8 @@ export default function Sobre() {
         flex-col
         gap-3
         py-4
+        items-center
+        justify-center
         
        `}
         >
@@ -19,7 +21,7 @@ export default function Sobre() {
             </div>
 
 
-            <div className="text-gray-600 items-center flex text-left border border-gray-500 p-6  border-gray-300  w-full h-150">
+            <div className="text-gray-600 items-center flex text-left border  p-6  border-white  w-full h-150">
 
                 <div className=" text-xl gap-5 flex p-6 flex-col w-full">
                     <div className="text-white">
@@ -59,13 +61,6 @@ export default function Sobre() {
 
                 </div>
             </div>
-
-
-
-
-
-
-
 
         </div>
     );

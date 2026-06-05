@@ -7,10 +7,10 @@ import CardJogador from "@/components/CardJogador";
 
 export default function Home() {
   return (
-    <div className="flex  items-center justify-center">
+    <div className="flex  items-center shadow justify-center">
       {/**caixa pai segudaria */}
       <div className="w-full h-full">
-        <div className="bg-white w-full">
+        <div className="bg-white  w-full">
 
           <Header />
         </div>
@@ -20,9 +20,9 @@ export default function Home() {
         </div>
 
         {/**caixa pai dos jogadorees */}
-        <div className="w-full h-screen justify-center gap-20 p-2 border-gray-500  flex bg-[#009C3B]">
+        <div className="w-full  justify-center h-screen shadow-2xl  border-gray-500  flex bg-[#009C3B]">
           {/**Caixa dos jogadores */}
-          <div className=" flex flex-col items-center justify-center gap-4 w-400" id="Jogadores">
+          <div className=" flex flex-col items-center justify-center gap-6 p-5 h-full" id="Jogadores">
             <div className="flex gap-5">
 
               <CardJogador
@@ -127,18 +127,15 @@ export default function Home() {
                 gols="7+"
                 camisa="7"
               />
-
-
             </div>
-
-
-
           </div>
-
-
         </div>
 
-        <Footer />
+      <div className="w-full">
+        <Footer/>
+        </div>
+
+
       </div>
 
     </div>

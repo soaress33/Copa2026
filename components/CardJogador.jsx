@@ -8,7 +8,7 @@ export default function CardJogador({
   camisa
 }) {
   return (
-    <div className="w-64 hover:scale-110 transition duration-300 text-black bg-white rounded-xl shadow-lg overflow-hidden">
+    <div className="w-64 hover:scale-110  transition duration-300 text-black bg-white rounded-xl shadow-2xl overflow-hidden">
 
       <img
         src={imagem}
@@ -16,7 +16,7 @@ export default function CardJogador({
         className="w-full h-64 object-cover object-top"
       />
 
-      <div className="p-4">
+      <div className="p-3">
 
         <h2 className="text-2xl font-bold text-green-700">
           {nome}
